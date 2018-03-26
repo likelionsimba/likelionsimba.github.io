@@ -56,7 +56,9 @@ section {
 
 .section-heading {
   margin-top: 0;
+  font-family:'Roboto Slab', serif;
 }
+
 
 ::-moz-selection {
   color: #fff;
@@ -183,7 +185,8 @@ header.masthead hr {
 }
 
 header.masthead h1 {
-  font-size: 2rem;
+  font-size: 2em;
+  opacity : 0.9;
 }
 
 header.masthead p {
@@ -218,11 +221,13 @@ header.masthead p {
   max-width: 400px;
 }
 
+
 .portfolio-box {
   position: relative;
   display: block;
   max-width: 650px;
-  margin: 0 auto;
+  text-align:center;
+  
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -309,4 +314,8 @@ header.masthead p {
 
 .btn-primary:active, .btn-primary:focus {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
+}
+
+p .text-faded .mb-5 {
+  
 }
