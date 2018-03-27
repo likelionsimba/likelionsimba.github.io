@@ -38,6 +38,11 @@ h6 {
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
+h1 {
+  font-family: 'Montserrat', sans-serif;
+  
+}
+
 .bg-primary {
   background-color: #F05F40 !important;
 }
@@ -48,17 +53,27 @@ h6 {
 
 .text-faded {
   color: rgba(255, 255, 255, 0.7);
+  letter-spacing: 2px;
 }
 
 section {
   padding: 8rem 0;
 }
 
+
 .section-heading {
   margin-top: 0;
-  font-family:'Roboto Slab', serif;
+  font-family: 'Allerta Stencil', sans-serif;
+  letter-spacing: 4px;
 }
 
+
+/* CAUTION 폰트 수정 */
+h2#stencil.section-heading.text-white {
+  font-family: 'Allerta Stencil', sans-serif;
+  font-size: 85px;
+
+}
 
 ::-moz-selection {
   color: #fff;
@@ -95,7 +110,7 @@ img::-moz-selection {
   font-weight: 700;
   text-transform: uppercase;
   color: #F05F40;
-  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  font-family: 'Montserrat', sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -227,6 +242,11 @@ header.masthead p {
   display: block;
   max-width: 650px;
   text-align:center;
+  padding:20px;             
+  
+}
+
+#portfolio {
   
 }
 
@@ -257,6 +277,13 @@ header.masthead p {
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
   padding: 0 15px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+}
+
+.introduction{
+  opacity: 0.8;
+  padding: 0 15px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -296,6 +323,7 @@ header.masthead p {
   border: none;
   border-radius: 300px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
+  letter-spacing: 1px;
 }
 
 .btn-xl {
@@ -316,6 +344,33 @@ header.masthead p {
   box-shadow: 0 0 0 0.2rem rgba(240, 95, 64, 0.5) !important;
 }
 
-p .text-faded .mb-5 {
-  
+
+#contact {
+  background-color: #ededed;
+}
+
+#th{
+  font-size:30px;
+}
+
+.footerfont{
+  font-family:WONtitle;
+}
+
+
+.lionimg{
+    height: 200px;
+    margin: 20px;
+    border-radius: 0%;
+    
+    
+}
+
+.cent{
+    margin-left: 80px;
+}
+
+p .mb-5 {
+  letter-spacing: 2px;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
