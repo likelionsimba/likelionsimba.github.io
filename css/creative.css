@@ -110,7 +110,7 @@ img::-moz-selection {
   font-weight: 700;
   text-transform: uppercase;
   color: #F05F40;
-  font-family: 'Montserrat', sans-serif;
+  font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
 #mainNav .navbar-brand:focus, #mainNav .navbar-brand:hover {
@@ -374,3 +374,18 @@ p .mb-5 {
   letter-spacing: 2px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
+
+#car{
+  height: 400px;
+  margin:auto;
+}
+
+#kakao{
+  text-decoration: line-through;
+}
+
+.slide{
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
