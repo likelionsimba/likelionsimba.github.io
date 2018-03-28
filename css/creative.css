@@ -242,7 +242,7 @@ header.masthead p {
   display: block;
   max-width: 650px;
   text-align:center;
-  padding:20px;             
+  padding:10px;             
   
 }
 
@@ -275,7 +275,7 @@ header.masthead p {
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category,
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-name {
-  padding: 0 10px;
+  padding: 0 15px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
 }
 
