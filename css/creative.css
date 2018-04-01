@@ -40,7 +40,7 @@ h6 {
 
 h1 {
   font-family: 'Montserrat', sans-serif;
-  
+
 }
 
 .bg-primary {
@@ -242,12 +242,12 @@ header.masthead p {
   display: block;
   max-width: 650px;
   text-align:center;
-  padding:10px;             
-  
+  padding:10px;
+
 }
 
 #portfolio {
-  
+
 }
 
 .portfolio-box .portfolio-box-caption {
@@ -283,7 +283,7 @@ header.masthead p {
   opacity: 0.8;
   padding: 0 15px;
   font-family: 'Open Sans', 'Helvetica Neue', Arial, sans-serif;
-  
+
 }
 
 .portfolio-box .portfolio-box-caption .portfolio-box-caption-content .project-category {
@@ -358,8 +358,8 @@ header.masthead p {
     height: 200px;
     margin: 20px;
     border-radius: 0%;
-    
-    
+
+
 }
 
 .cent{
@@ -412,14 +412,14 @@ p .mb-5 {
 	margin: 20px;
 }
 .ch-item {
-	width: 100%;
-	height: 100%;
+	width: 95%;
+	height: 95%;
 	border-radius: 50%;
 	overflow: hidden;
 	position: relative;
 	cursor: default;
 	box-shadow:
-		inset 0 0 0 16px rgba(255,255,255,0.6),
+		inset 0 0 0 10px rgba(255,255,255,0.6),
 		0 1px 2px rgba(0,0,0,0.1);
 	transition: all 0.4s ease-in-out;
 }
@@ -453,6 +453,7 @@ p .mb-5 {
 	opacity: 0;
 	transition: all 0.4s ease-in-out;
 	transform: scale(0);
+	padding-left: 13px;
 }
 .ch-info h3 {
 	color: #fff;
@@ -496,7 +497,7 @@ p .mb-5 {
 		0 1px 2px rgba(0,0,0,0.1);
 }
 .ch-item:hover .ch-info {
-	transform: scale(1);
+	transform: scale(1.12);
 	opacity: 1;
 }
 .ch-item:hover .ch-info p {
@@ -512,7 +513,7 @@ p .mb-5 {
 	font: bold 16px sans-serif;
 	padding: 55px 50px;
 	margin-top: 80px;
-	height: 250px;
+	height: auto;
 }
 
 .footer-distributed .footer-left,
