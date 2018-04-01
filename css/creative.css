@@ -345,10 +345,6 @@ header.masthead p {
 }
 
 
-#contact {
-  background-color: #ededed;
-}
-
 #th{
   font-size:30px;
 }
@@ -376,8 +372,9 @@ p .mb-5 {
 }
 
 #car{
-  height: 400px;
+  height: auto;
   margin:auto;
+  max-width: 100%;
 }
 
 #kakao{
@@ -515,7 +512,7 @@ p .mb-5 {
 	font: bold 16px sans-serif;
 	padding: 55px 50px;
 	margin-top: 80px;
-	height: 500px;
+	height: 250px;
 }
 
 .footer-distributed .footer-left,
